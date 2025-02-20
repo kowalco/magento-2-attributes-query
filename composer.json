@@ -1,0 +1,23 @@
+{
+    "name": "kowal/module-attributesquery",
+    "description": "Aktualizacja atrybut\u00f3w SQL",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "email": "kontakt@kowal.co",
+            "name": "kowal sp zoo"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kowal\\AttributesQuery\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
