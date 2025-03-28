@@ -3,7 +3,7 @@
     "description": "Aktualizacja atrybut\u00f3w SQL",
     "type": "magento2-module",
     "license": "proprietary",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "email": "kontakt@kowal.co",
