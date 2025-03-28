@@ -17,11 +17,11 @@ Export Products to CSV
 
 1. **Add the composer repository to the configuration:**
    ```bash
-   composer config repositories.attributes.query vcs https://gitlab.com/magento2ext/magento-2-attributes-query
+   composer config repositories.attributes.query vcs https://github.com/kowalco/magento-2-attributes-query
 
 2. **Add an access token for the private GitLab repository:**
    ```bash
-   composer config --auth gitlab-token.gitlab.com <YOUR_TOKEN>
+   composer config --global --auth github-oauth.github.com <YOUR_TOKEN>
 
 3. **Install the module using Composer:**
    ```bash
